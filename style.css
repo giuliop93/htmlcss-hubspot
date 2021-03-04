@@ -56,10 +56,6 @@ ul {
     color: gray;
 }
 
-.bg-blue {
-    background-color: blue;
-}
-
 .clearfix:after {
     display: table;
     content: '';
@@ -85,4 +81,29 @@ ul {
 #ah {
     margin-bottom: 3%;
     margin-left: 10.5%;
+}
+
+.integra {
+    height: 150px;
+    width: 150px;
+    background-image: url("img/Integrations_Illustration@2x.webp");
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#c2h {
+    margin: auto;
+    text-align: center;
+}
+
+#hub {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("img/book.svg");
 }
