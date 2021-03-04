@@ -42,10 +42,18 @@ img.logo {
 .col-80 {
     width: 80%;
     text-align: right;
+    padding-left: 45%;
 }
 
-.bg-red {
-    background-color: red;
+ul {
+    list-style-type: none;
+}
+
+.nav-5 {
+    padding: 5px;
+    float: left;
+    text-decoration: none;
+    color: gray;
 }
 
 .bg-blue {
@@ -61,4 +69,20 @@ img.logo {
 #hero {
     height: 700px;
     background-image: url('img/jumbotron.png');
+}
+
+#th {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#ph {
+    padding-top: 2%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+#ah {
+    margin-bottom: 3%;
+    margin-left: 10.5%;
 }
