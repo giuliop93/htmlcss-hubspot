@@ -2,4 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: solid 1px;
+    height: 400px;
+}
+
+.row-1 {
+    height: 50px;
+    border: solid 1px;
+}
+
+col-1 {
+    border: 1px solid;
+    height: 40px;
+    width: 30%;
+    display: inline-block;
+}
+
+col-2 {
+    border: 1px solid;
+    height: 40px;
+    width: 20%;
+    float: right;
+}
+
+.row-2 {
+    height: 50px;
+    border: solid 1px;
+}
+
+col-3 {
+    border: 1px solid;
+    height: 40px;
+    width: 20%;
+}
+
+col-4 {
+    border: solid 1px;
+    height: 40px;
+    width: 20%;
+}
+
+#hero {
+    object-fit: cover;
+    width: 100%;
 }
