@@ -6,7 +6,7 @@
 }
 
 .container {
-    border: solid 1px;
+
 }
 
 .header {
@@ -76,7 +76,7 @@ ul {
     clear: both;
 }
 
-#hero {
+.hero {
     height: 700px;
     background-image: url('img/jumbotron.png');
 }
@@ -97,8 +97,8 @@ ul {
     margin-left: 10.5%;
 }
 
-#lb {
-    background-color: rgb(206, 231, 247);
+.lc {
+    background-color: lightcyan;
 }
 
 .rubik {
@@ -172,4 +172,44 @@ h4 {
     display: inline-block;
     width: 580px;
     border: solid 2px;
+}
+
+.bordin {
+    border: solid 1px rgb(154, 189, 187);
+}
+
+.lg {
+    background-color: lightseagreen;
+}
+
+.lw {
+    background-color: floralwhite;
+    height: 50px;
+}
+
+.dg {
+    background-color: darkslategrey;
+    height: 50px;
+}
+
+.mktg {
+    width: 100px;
+}
+
+.right {
+    margin-right: 3px;
+}
+
+.left {
+    margin-left: 3px;
+}
+
+.text-white {
+    color: white;
+    text-align: center;
+}
+
+.bos {
+    height: 100px;
+    width: 150px;
 }
