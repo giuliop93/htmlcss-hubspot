@@ -101,13 +101,11 @@ ul {
     background-color: rgb(206, 231, 247);
 }
 
-.integra {
+.rubik {
     height: 150px;
     width: 150px;
-    background-image: url("img/Integrations_Illustration@2x.webp");
     margin: auto;
-    background-position: center;
-    background-size: contain;
+    object-fit: contain;
     background-repeat: no-repeat;
 }
 
@@ -150,12 +148,6 @@ ul {
 {
     width: 150px;;
 }
-#crm {
-    position: absolute;
-    text-align: left;
-    left: 20%;
-    width: 100%;
-}
 
 #matriosca {
     background-color: white;
@@ -163,15 +155,6 @@ ul {
     width: 1200px;
 }
 
-#second {
-    margin-top: 2%;
+#white {
     background-color: white;
-}
-
-.pblock {
-    margin-left: -45%;
-}
-
-.shr {
-
 }
