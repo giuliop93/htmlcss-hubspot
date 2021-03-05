@@ -177,14 +177,14 @@ h4 {
 }
 
 .lw {
-    background-color: floralwhite;
+    background-color: white;
     min-height: 400px;
     position: relative;
 }
 
 .dg {
     background-color: darkslategrey;
-    height: 90px;
+    height: 300px;
 }
 
 .mktg {
@@ -238,4 +238,27 @@ h4 {
 
 .maxwid {
     max-width: 100px;
+}
+
+#text-6 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+}
+
+.woman {
+    position: absolute;
+    max-width: 180px;
+    left: 700px;
+    top: -55px;
+}
+
+.marginleft {
+    margin-left: 20%;
+}
+
+.solid {
+    width: 100%;
+    border: solid 1px;
+    color: white;
 }
