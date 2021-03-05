@@ -179,6 +179,7 @@ h4 {
 .lw {
     background-color: floralwhite;
     min-height: 400px;
+    position: relative;
 }
 
 .dg {
@@ -206,7 +207,7 @@ h4 {
 
 .bos {
     height: 110px;
-    width: 200px;
+    width: 150px;
 }
 
 .float {
@@ -225,3 +226,16 @@ h4 {
     padding-top: 3%;
 }
 
+.absolute {
+    position: absolute;
+    left: 30%;
+}
+
+.boss {
+    border: none;
+    padding: 20px;
+}
+
+.maxwid {
+    max-width: 100px;
+}
