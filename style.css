@@ -142,16 +142,10 @@ ul {
     border-radius: 5px;
 }*/
 
-.book-img 
-{
+.book-img {
     width: 150px;
 }
 
-#matriosca {
-    background-color: white;
-    height: 300px;
-    width: 1200px;
-}
 
 .box {
     background-color: white;
@@ -184,12 +178,12 @@ h4 {
 
 .lw {
     background-color: floralwhite;
-    height: 50px;
+    min-height: 400px;
 }
 
 .dg {
     background-color: darkslategrey;
-    height: 50px;
+    height: 90px;
 }
 
 .mktg {
@@ -225,5 +219,9 @@ h4 {
 
 .top {
     margin-top: 3%;
+}
+
+.pad {
+    padding-top: 3%;
 }
 
