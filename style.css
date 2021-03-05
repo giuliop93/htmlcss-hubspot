@@ -7,7 +7,7 @@
 
 .container {
     border: solid 1px;
-    height: 400px;
+    height: 600px;
 }
 
 .header {
@@ -19,6 +19,8 @@
 .wrapper {
     width: 1200px;
     margin: auto;
+    position: relative;
+    overflow: visible;
 }
 
 div.nav {
@@ -83,6 +85,9 @@ ul {
     margin-left: 10.5%;
 }
 
+#lb {
+    background-color: rgb(206, 231, 247);
+}
 .integra {
     height: 150px;
     width: 150px;
@@ -93,7 +98,7 @@ ul {
     background-repeat: no-repeat;
 }
 
-#c2h {
+#ch2 {
     margin: auto;
     text-align: center;
 }
@@ -106,4 +111,46 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("img/book.svg");
+    background-color: white;
+}
+
+#ahub {
+    border: solid 1px orange;
+    background-color: orange;
+    position: absolute;
+    margin-top: 1%;
+    top: 150px;
+    left: 0px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#crm {
+    position: absolute;
+    text-align: left;
+    left: 20%;
+    width: 100%;
+}
+
+#matriosca {
+    background-color: white;
+    height: 300px;
+    width: 1200px;
+}
+
+#second {
+    margin-top: 2%;
+    background-color: white;
+}
+
+.pblock {
+    margin-left: -45%;
+}
+
+.shr {
+
 }
