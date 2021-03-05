@@ -7,7 +7,6 @@
 
 .container {
     border: solid 1px;
-    height: 600px;
 }
 
 .header {
@@ -47,6 +46,7 @@ img.logo {
 
 .col-30 {
     width: 30%;
+    float: left;
 }
 
 .col-70 {
@@ -102,11 +102,7 @@ ul {
 }
 
 .rubik {
-    height: 150px;
     width: 150px;
-    margin: auto;
-    object-fit: contain;
-    background-repeat: no-repeat;
 }
 
 #ch2 {
@@ -125,6 +121,12 @@ ul {
     background-color: white;
 }
 
+.clearfix:after {
+    display:table;
+    content:'';
+    clear:both;
+}
+/*
 .ahub {
     border: solid 1px orange;
     background-color: orange;
@@ -138,15 +140,11 @@ ul {
     width: 150px;
     padding: 15px;
     border-radius: 5px;
-}
-
-.border {
-    border: 1px solid black;
-}
+}*/
 
 .book-img 
 {
-    width: 150px;;
+    width: 150px;
 }
 
 #matriosca {
@@ -155,6 +153,23 @@ ul {
     width: 1200px;
 }
 
-#white {
+.box {
     background-color: white;
+}
+
+.padding-large {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    display: inline-block;
+}
+
+.inline {
+    display: inline-block;
+    width: 580px;
+    border: solid 2px;
 }
