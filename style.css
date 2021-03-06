@@ -29,7 +29,7 @@
 div.nav {
     height: 50px;
     line-height: 50px;
-    background-color: lightgrey;
+    background-color: rgb(252, 246, 246);
 }
 
 img.logo {
@@ -42,6 +42,11 @@ img.logo {
 
 .col-20 {
     width: 20%;
+}
+
+.decnone {
+    text-decoration: none;
+    color: gray;
 }
 
 .col-30 {
@@ -92,10 +97,10 @@ ul {
     padding-bottom: 2%;
 }
 
-#ah {
+/*#ah {
     margin-bottom: 3%;
     margin-left: 10.5%;
-}
+}*/
 
 .lc {
     background-color: lightcyan;
@@ -126,24 +131,20 @@ ul {
     content:'';
     clear:both;
 }
-/*
+
 .ahub {
-    border: solid 1px orange;
-    background-color: orange;
-    position: absolute;
-    margin-top: 1%;
-    top: 150px;
-    left: 0px;
+    background-color: tomato;
     text-decoration: none;
     color: white;
     text-align: center;
     width: 150px;
     padding: 15px;
     border-radius: 5px;
-}*/
+}
+
 
 .book-img {
-    width: 150px;
+    width: 130px;
 }
 
 
@@ -184,7 +185,7 @@ h4 {
 
 .dg {
     background-color: darkslategrey;
-    height: 300px;
+    height: 400px;
 }
 
 .mktg {
@@ -254,6 +255,7 @@ h4 {
 }
 
 .marginleft {
+    color: white;
     margin-left: 20%;
 }
 
@@ -261,4 +263,26 @@ h4 {
     width: 100%;
     border: solid 1px;
     color: white;
+}
+
+.lastnav {
+    margin-top: 15px;
+}
+
+.white {
+    color: white;
+}
+
+.languages {
+    color: white;
+    text-align: center;
+}
+
+.bot {
+    padding-bottom: 5%;
+}
+
+.bold {
+    font-weight: bold;
+    padding-top: 20px;
 }
