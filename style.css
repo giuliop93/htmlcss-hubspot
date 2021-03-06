@@ -86,12 +86,12 @@ ul {
     background-image: url('img/jumbotron.png');
 }
 
-#th {
+.th {
     margin-top: 5%;
     margin-bottom: 1%;
 }
 
-#ph {
+.ph {
     padding-top: 2%;
     margin: auto;
     padding-bottom: 2%;
