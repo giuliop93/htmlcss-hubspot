@@ -209,7 +209,35 @@ ul {
     border: solid 1px rgb(154, 189, 187);
 }
 
-.p33 {
+#primo {
+    border-left: lightseagreen solid 1px;
+    border-top: lightseagreen solid 1px;
+}
+
+#secondo {
+    border-top: lightseagreen solid 1px;
+}
+
+#terzo {
+    border-top: lightseagreen solid 1px;
+    border-right:lightseagreen solid 1px;
+}
+
+#quarto {
+    border-left: lightseagreen solid 1px;
+    border-bottom: lightseagreen solid 1px;
+}
+
+#quinto {
+    border-bottom: lightseagreen solid 1px;
+}
+
+#sesto {
+    border-bottom: lightseagreen solid 1px;
+    border-right: lightseagreen solid 1px;
+}
+
+.p5 {
     margin-left: 5%;
 }
 
