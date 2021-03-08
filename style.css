@@ -54,6 +54,7 @@ img.logo {
     border: tomato solid 1px;
     text-decoration: none;
     display: inline-block;
+    padding: 1px 10px;
 
 }
 
@@ -136,6 +137,10 @@ ul {
     background-color: white;
 }
 
+.transform {
+    text-transform: uppercase;
+}
+
 .clearfix:after {
     display:table;
     content:'';
@@ -152,7 +157,7 @@ ul {
     color: white;
     text-align: center;
     width: 150px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     margin: 15px 0;
     display: inline-block;
