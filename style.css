@@ -148,6 +148,11 @@ ul {
     clear:both;
 }
 
+.text-left {
+    text-align: left;
+    margin-left: 25%;
+}
+
 .w50 {
     width: 50%;
 }
@@ -181,8 +186,12 @@ ul {
     padding-bottom: 20px;
 }
 
-h4 {
-    display: inline-block;
+.orange {
+    width: 20px;
+    height: 10px;
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
 }
 
 .inline {
@@ -193,6 +202,11 @@ h4 {
 
 .bordin {
     border: solid 1px rgb(154, 189, 187);
+}
+
+.p33 {
+    width: 30%;
+    margin: 0 10px;
 }
 
 .lg {
@@ -212,6 +226,7 @@ h4 {
 
 .mktg {
     width: 100px;
+    margin-left: 38%;
 }
 
 .right {
