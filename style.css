@@ -40,6 +40,7 @@ img.logo {
 }
 
 .decnone {
+    line-height: 50px;
     text-decoration: none;
     color: gray;
 }
