@@ -114,7 +114,11 @@ ul {
 }*/
 
 .lc {
-    background-color: lightcyan;
+    background-color: rgb(224, 234, 255);
+}
+
+.height {
+    line-height: 30px;
 }
 
 .rubik {
@@ -196,6 +200,10 @@ ul {
 
 .inline {
     display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
     width: 580px;
     border: solid 2px;
 }
@@ -215,7 +223,7 @@ ul {
 
 .lw {
     background-color: white;
-    min-height: 400px;
+    min-height: 470px;
     position: relative;
 }
 
