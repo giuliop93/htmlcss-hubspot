@@ -138,6 +138,7 @@ ul {
 }
 
 .transform {
+    margin: 5px 0;
     text-transform: uppercase;
 }
 
