@@ -251,6 +251,11 @@ ul {
     padding-top: 3%;
 }
 
+.posX {
+    object-fit: contain;
+    background-position: center;
+}
+
 .bos {
     height: 110px;
     width: 25%;
