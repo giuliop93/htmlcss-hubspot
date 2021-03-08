@@ -10,8 +10,7 @@
 }
 
 .header {
-    background-color: lightblue;
-    height: 50px;
+    background-color: rgb(228, 236, 247);
     line-height: 50px;
 }
 
@@ -29,7 +28,7 @@
 div.nav {
     height: 50px;
     line-height: 50px;
-    background-color: rgb(252, 246, 246);
+    background-color: rgb(252, 252, 246);
 }
 
 img.logo {
@@ -47,6 +46,15 @@ img.logo {
 .decnone {
     text-decoration: none;
     color: gray;
+}
+
+.login {
+    color: tomato;
+    border-radius: 5px;
+    border: tomato solid 1px;
+    text-decoration: none;
+    display: inline-block;
+
 }
 
 .col-30 {
@@ -84,6 +92,8 @@ ul {
 .hero {
     height: 700px;
     background-image: url('img/jumbotron.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .th {
@@ -132,6 +142,10 @@ ul {
     clear:both;
 }
 
+.w50 {
+    width: 50%;
+}
+
 .ahub {
     background-color: tomato;
     text-decoration: none;
@@ -140,6 +154,8 @@ ul {
     width: 150px;
     padding: 15px;
     border-radius: 5px;
+    margin: 15px 0;
+    display: inline-block;
 }
 
 
@@ -208,11 +224,15 @@ h4 {
 
 .bos {
     height: 110px;
-    width: 150px;
+    width: 25%;
 }
 
 .float {
     float: left;
+}
+
+.margin-auto {
+    margin: auto;
 }
 
 .margin {
@@ -285,4 +305,20 @@ h4 {
 .bold {
     font-weight: bold;
     padding-top: 20px;
+}
+
+.latest {
+    background-color: aliceblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    width: fit-content;
+    color: gray;
+}
+
+.fb {
+    background-color: #3B5998;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
 }
