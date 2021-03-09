@@ -7,7 +7,7 @@
 
 .header {
     background-color: rgb(228, 236, 247);
-    line-height: 50px;
+    padding: 10px;
 }
 
 .wrapper {
@@ -22,7 +22,6 @@
 }
 
 div.nav {
-    height: 50px;
     line-height: 50px;
     background-color: rgb(252, 252, 246);
 }
@@ -40,7 +39,8 @@ img.logo {
 }
 
 .decnone {
-    line-height: 50px;
+    display: inline-block;
+    line-height: 40px;
     text-decoration: none;
     color: gray;
 }
@@ -51,8 +51,7 @@ img.logo {
     border: tomato solid 1px;
     text-decoration: none;
     display: inline-block;
-    padding: 1px 10px;
-
+    padding: 10px;
 }
 
 .col-30 {
@@ -74,9 +73,12 @@ ul {
     list-style-type: none;
 }
 
+.nav-4 li {
+    float: left;
+}
+
 .nav-5 {
     padding: 5px;
-    float: left;
     text-decoration: none;
     color: gray;
 }
@@ -160,6 +162,7 @@ ul {
 }
 
 .ahub {
+    border: tomato solid 1px;
     background-color: tomato;
     text-decoration: none;
     color: white;
@@ -167,7 +170,6 @@ ul {
     width: 150px;
     padding: 10px;
     border-radius: 5px;
-    margin: 15px 0;
     display: inline-block;
 }
 
@@ -202,8 +204,10 @@ ul {
 
 .inline-block {
     display: inline-block;
-    width: 580px;
-    border: solid 2px;
+    width: 70%;
+    border-top: solid 1px;
+    margin-bottom: 5px;
+    margin-left: 2%;
 }
 
 .bordin {
