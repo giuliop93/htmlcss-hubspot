@@ -180,6 +180,7 @@ li.text-left {
 
 .box {
     background-color: white;
+    border: solid 1px;
 }
 
 .padding-large {
