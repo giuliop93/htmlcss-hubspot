@@ -108,11 +108,6 @@ ul {
     padding-bottom: 2%;
 }
 
-/*#ah {
-    margin-bottom: 3%;
-    margin-left: 10.5%;
-}*/
-
 .lc {
     background-color: rgb(238, 242, 252);
 }
@@ -157,6 +152,10 @@ ul {
     margin-left: 25%;
 }
 
+li.text-left {
+    padding: 5px;
+}
+
 .w50 {
     width: 50%;
 }
@@ -191,8 +190,12 @@ ul {
 }
 
 .orange {
+    margin-right: 5px;
+    line-height: 20px;
+    text-align: center;
     width: 20px;
-    height: 10px;
+    height: 20px;
+    display: inline-block;
     background-color: tomato;
     color: white;
     border-radius: 50%;
@@ -212,6 +215,7 @@ ul {
 
 .bordin {
     border: solid 1px rgb(154, 189, 187);
+    padding: 15px;
 }
 
 #primo {
@@ -258,12 +262,19 @@ ul {
 
 .dg {
     background-color: darkslategrey;
-    height: 400px;
+}
+
+.reduct {
+    font-size: small;
 }
 
 .mktg {
-    width: 100px;
-    margin-left: 38%;
+    /* width: 100px;
+    margin-left: 38%; */
+}
+
+.mktg img {
+    height: 80px;
 }
 
 .right {
@@ -297,6 +308,7 @@ ul {
 .float-r {
     float: right;
 }
+
 .margin-auto {
     margin: auto;
 }
@@ -327,8 +339,6 @@ ul {
     left: 30%;
 }
 
-
-
 .boss {
     border: none;
     padding: 20px;
@@ -349,12 +359,16 @@ ul {
 
 .solid {
     width: 100%;
-    border: solid 1px;
+    border-top: solid 1px;
     color: white;
 }
 
 .lastnav {
     margin-top: 15px;
+}
+
+.col-25 {
+    width: 25%;
 }
 
 .white {
@@ -372,6 +386,10 @@ ul {
 
 .bot {
     padding-bottom: 5%;
+}
+
+.mbot {
+    margin-bottom: 2%;
 }
 
 .bold {
